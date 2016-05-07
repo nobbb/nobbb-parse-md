@@ -12,6 +12,11 @@ export default class NobbbParseOrg {
     }
     
     parse(mdCode) {
+
+        let lines = mdCode.split('\n');
+        for (let i = 0; ; i++) {
+            
+        }
         
         return {
             
