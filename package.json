@@ -1,11 +1,11 @@
 {
   "name": "nobbb-parse-md",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "compile": "./node_modules/.bin/babel -d build/ src/",
+    "compile": "./node_modules/.bin/babel -d build/ src/",
     "prepublish": "npm run compile"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/nobbb/nobbb-parse-md#readme",
   "dependencies": {
+    "fw-ramda": "^0.1.1",
     "markdown": "^0.5.0"
   },
   "devDependencies": {
