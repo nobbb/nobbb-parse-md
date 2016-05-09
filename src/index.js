@@ -27,7 +27,6 @@ export default class NobbbParseMarkdown {
                     value = R.drop(1, un).join(':');
 
                 infos[key] = value;
-                console.log(infos);
             } else {
                 break;
             }
